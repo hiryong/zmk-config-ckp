@@ -64,18 +64,5 @@
            &trans         &trans         &trans                             &trans           &kp HOME  &kp PG_DN  &kp END     &trans
             >;
         };
-        extra1 {
-            status = "reserved";
-        };
-
-        extra2 {
-            status = "reserved";
-        };
-        extra3 {
-            status = "reserved";
-        };
-        extra4 {
-            status = "reserved";
-        };
     };
 };
