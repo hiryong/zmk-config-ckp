@@ -44,3 +44,5 @@ jobs:
         with:
           name: firmware
           path: bt60.uf2
+include:
+    - snippet: studio-rpc-usb-uart
