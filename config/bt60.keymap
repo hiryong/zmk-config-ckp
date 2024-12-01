@@ -39,10 +39,10 @@
 
         win_layout {
             bindings = <
-&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &trans      &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &trans      &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &sys_reset  &trans  &trans  &trans
+&trans  &trans  &trans    &trans    &trans  &trans    &trans      &trans  &trans  &trans      &trans  &trans
         &trans  &kp LGUI  &kp LALT  &trans  &kp RALT  &kp C_MENU  &trans  &trans
             >;
         };
