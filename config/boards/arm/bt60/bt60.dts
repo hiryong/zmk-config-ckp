@@ -78,10 +78,6 @@
 			, <&gpio1 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
 	};
-	soft_off_wakers {
-        compatible = "zmk,soft-off-wakeup-sources";
-        wakeup-sources = <&kscan0>;
-    };
 	ext-power {
 		compatible = "zmk,ext-power-generic";
 		label = "EXT_POWER";
