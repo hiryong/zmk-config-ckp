@@ -6,7 +6,10 @@
 
 // makes it possible to hold backspace
 
-&lt { quick_tap_ms = <200>; };
+&lt {
+    quick_tap_ms = <300>;
+    tapping-term-ms = <300>;
+};
 
 &soft_off {
     hold-time-ms = <2000>; // Only turn off it the key is held for 2 seconds or longer.
