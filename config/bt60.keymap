@@ -7,8 +7,8 @@
 // makes it possible to hold backspace
 
 &lt {
-    quick_tap_ms = <300>;
-    tapping-term-ms = <300>;
+    quick_tap_ms = <200>;
+    flavor = "hold-preferred";
 };
 
 &soft_off {
