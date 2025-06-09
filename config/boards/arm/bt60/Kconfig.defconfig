@@ -32,6 +32,6 @@ config ZMK_KEYBOARD_NAME
 	default "BT60"
 
 config BT_DEVICE_NAME
-    default "BT60N"
+    	default "BT60N"
 
 endif # BOARD_BT60
