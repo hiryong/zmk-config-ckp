@@ -130,6 +130,10 @@
 		output-ohms = <100000>;
 		full-ohms = <(100000 + 100000)>;
 	};
+	bluetooth {
+	        compatible = "zmk,ble";
+	        bt_name = "원하는_블루투스_이름";
+	};
 };
 
 &adc {
