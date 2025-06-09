@@ -132,7 +132,7 @@
 	};
 	bluetooth {
 	        compatible = "zmk,ble";
-	        bt_name = "원하는_블루투스_이름";
+	        bt_name = "BT60_O";
 	};
 };
 
