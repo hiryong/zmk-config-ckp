@@ -15,6 +15,7 @@
 / {
 	model = "BT60";
 	compatible = "polarityworks,bt60v2";
+	bt_name = "My Corne Keyboard";
 
 	chosen {
 		zephyr,code-partition = &code_partition;
