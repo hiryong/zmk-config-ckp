@@ -28,7 +28,4 @@ config ZMK_USB
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
-config ZMK_KEYBOARD_NAME
-    default "BT60O" 
-
 endif # BOARD_BT60
